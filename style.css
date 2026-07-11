@@ -6,6 +6,7 @@
 body{
   background-color: #fafafa;
   font-family: Arial;
+  user-select: none;
 }
 .container{
   display: flex;
