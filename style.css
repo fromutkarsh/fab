@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fafafa;
+  font-family: Arial;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  color: #000050;
+  margin: 20px;
+}
+h2{
+  color: #000050;
+  margin: 10px;
+}
+.card1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 3px grey;
+  border-radius: 15px;
+  width: 300px;
+  transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.card1:hover{
+  transform: scale(1.04);
+  box-shadow: 0 0 8px grey;
+}
+.card1img{
+  width: 100%;
+  border-radius: 10px;
+}
+.card1p{
+  text-align: center;
+  font-size: 21px;
+  line-height: 28px; 
+}
+h3{
+  font-size: 24px;
+  color: #000064;
+}
+.card1p{
+  color: #646464;
+}
+.card2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 3px #c8c8c8;
+  transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.card2:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 8px #c8c8c8;
+}
+.card2h3{
+  font-size: 40px;
+}
+.card2 p{
+  font-size: 21px;
+}
